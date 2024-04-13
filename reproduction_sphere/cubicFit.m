@@ -40,6 +40,7 @@ d = F \ bPhi;
 
 % Interpolation and get the optimizing index
 syms t
+assume(t >= 0)
 
 % Interpolate the state and acceleration
 % State
